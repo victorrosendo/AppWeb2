@@ -20,6 +20,7 @@ export class JsonService {
   constructor(private http: HttpClient) { }
 
   getJsonData(): Observable<any> {
+    ddjd:
     return this.http.get(this.jsonUrl);
   }
 
